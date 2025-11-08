@@ -2,6 +2,8 @@
 
 A classic Hangman Game with single-player and multiplayer mode, built in Python with Tkinter.
 
+![view](Screenshots/HMG1.png)
+
 ---
 
 ## Technologies & Requirements
@@ -11,10 +13,17 @@ A classic Hangman Game with single-player and multiplayer mode, built in Python 
 ## Features
 - Difficulty selector: Easy (10 lives), Medium (7 lives), Hard (5 lives). Medium is the default difficulty.
 - Multiplayer mode: A second player can set a secret word, after that all second player related options are hidden.
+
+![view](Screenshots/HMG4.png)
+![view](Screenshots/HMG5.png)
+
 - On-screen Keyboard (Including Ñ for spanish users) for guessing letters.
 - Tracks incorrect guesses and remaining lives.
 - Restart game button. 
-- Victory and Game-Over messages. 
+- Victory and Game-Over messages.
+
+![view](Screenshots/HMG2.png)
+![view](Screenshots/HMG3.png)
 
 ## Structure
 - core.py: Game logic, difficulties, multiplayer functions and helpers.
